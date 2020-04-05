@@ -86,3 +86,11 @@ button.bg {
 .number button:hover {
     background-color: #ccc;
 }
+
+@media(max-width: 340px) {
+    .calc {
+        width: 100%;
+        min-width: 265px;
+        height: 100%;
+    }
+}
