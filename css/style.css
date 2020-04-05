@@ -30,11 +30,13 @@ body {
 }
 
 .calc {
+    border: 2px solid #382465;
+    border-radius: 20px;
     width: 250px;
     height: 350px;
     margin: auto;
     margin-top: 100px;
-    background-color: bisque;
+    background-color: #6340B2;
     padding: 10px;
 }
 
@@ -54,20 +56,33 @@ body {
 
 .number {
     padding: 5px 0 5px 0;
-    background-color: aqua;
+    background-color: #6340B2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 10px;
 }
 
-.number button {
+button.button {
     border: none;
-    border-radius: 50%;
-    color: #333;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 25px;
     height: 50px;
     margin: auto;
     outline: none;
     width: 50px;
+    transition: background-color .5s ease;
+}
+
+button.fg {
+    color: #09B813;
+}
+
+button.bg {
+    background-color: #09B813;
+    color: #FFF;
+}
+
+.number button:hover {
+    background-color: #ccc;
 }
