@@ -87,7 +87,7 @@ button.bg {
     background-color: #ccc;
 }
 
-@media(max-device-width: 400px) {
+@media(max-device-width: 1080px) {
     .calc {
         width: 100%;
         min-width: 265px;
